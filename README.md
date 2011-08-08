@@ -1,7 +1,7 @@
 Sublime Text 2 Color Console
 ============================
 
-This will allow you to see the output of Sublime Text 2's console in a (more-or-less) unified syntax highlighting scheme based on your current theme. It's based directly off of the Python and Django standard .tmLanguage files. I've found this to help find something visually much faster, since it visually mirrors the code it references.
+This will allow you to see the output of Sublime Text 2's console in a (more-or-less) unified syntax highlighting scheme based on your current theme. It's based directly off of the Python and Django standard .tmLanguage files. I've found this to help find something visually much faster, since it mirrors the code it references.
 
 ![color console](https://github.com/ehamiter/ST2-Color-Console/raw/master/console.png)
 
