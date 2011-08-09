@@ -15,9 +15,24 @@ Installation
 Copy **[Console.tmLanguage](https://github.com/ehamiter/ST2-Color-Console/raw/master/Console.tmLanguage)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
 
 
-Usage
------
-
 Copy Widget.sublime-settings from /Default to /User and edit the syntax line: 
 
     "syntax": "Packages/User/Console.tmLanguage",
+
+
+Select the color for the undefined console text in your current .tmTheme:
+
+    <dict>
+       <key>name</key>
+       <string>Source</string>
+       <key>scope</key>
+       <string>source.console</string>
+       <key>settings</key>
+       <dict>
+          <key>fontStyle</key>
+          <string></string>
+          <key>foreground</key>
+          <string>#C5C8C6</string><!--console's non-defined text-->
+       </dict>
+    </dict>
+
