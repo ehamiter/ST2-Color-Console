@@ -1,3 +1,8 @@
+# UPDATE:
+
+### This plugin is currently not functional. I'm leaving the repo as-is for now, but be warned some changes have been made in ST2 that have negated some aspects of the code below. If you fix it before I do, pull requests are most welcome. Thanks!
+
+
 Sublime Text 2 Color Console
 ============================
 
