@@ -1,30 +1,20 @@
-# UPDATE:
-
-### This plugin is currently not functional. I'm leaving the repo as-is for now, but be warned some changes have been made in ST2 that have negated some aspects of the code below. If you fix it before I do, pull requests are most welcome. Thanks!
-
-
-Sublime Text 2 Color Console
-============================
-
+###Sublime Text 2 Color Console
 This will allow you to see the output of Sublime Text 2's console in a (more-or-less) unified syntax highlighting scheme based on your current theme. It's based directly off of the Python and Django standard .tmLanguage files. I've found this to help find something visually much faster, since it mirrors the code it references.
 
 ![color console](https://github.com/ehamiter/ST2-Color-Console/raw/master/console.png)
 
-Caveats
--------
+###Caveats
 I've removed any references to any deprecated, illegal, or invalid flags, so as not to completely red-line a text string that may not "look" right. This still needs work-- you'll notice if it encounters a multi-line string that does not terminate, the rest of the console will be highlighted with a string's set color. Also, a few "key" words have been added to attempt to unify common phrases used in the console, i.e. "Searching X files for 'word'" highlights the keyword "for", so I've added "Searching", "files", and "case sensitive" to maintain the coloring.
 
-Installation
+###Installation
 ------------
+Install into your ST2 Packages folder as normal.  Then run **Color Console: Enable** from the command palette.  This will create a `Widget.sublime-settings` file that changes the console syntax hilighting to the current theme.  After creation, the settings file is opened, for if you would like to change the console to a different theme.
 
-Copy **[Console.tmLanguage](https://github.com/ehamiter/ST2-Color-Console/raw/master/Console.tmLanguage)** into your ST2 User packages folder *(Sublime Text 2 > Preferences > Browse Packages... > User)*
-
-
-Copy Widget.sublime-settings from /Default to /User and edit the syntax line: 
-
-    "syntax": "Packages/User/Console.tmLanguage",
+A shortcut to edit the `Widget.sublime-settings` file is available from **Preferences ->
+Package Settings -> Color Console**.
 
 
+**Optional:**
 Select the color for the undefined console text in your current .tmTheme:
 
     <dict>
@@ -41,3 +31,6 @@ Select the color for the undefined console text in your current .tmTheme:
        </dict>
     </dict>
 
+
+Updated Sept 2012 by Charles Phillips
+MIT Licensed. Use at your own risk.
