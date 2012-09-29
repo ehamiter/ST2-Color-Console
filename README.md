@@ -33,4 +33,5 @@ Select the color for the undefined console text in your current .tmTheme:
 
 
 Updated Sept 2012 by Charles Phillips
+
 MIT Licensed. Use at your own risk.
